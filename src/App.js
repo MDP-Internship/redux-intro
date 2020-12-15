@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/counter';
+import IncreaseCounter from './components/ıncreaseCounter';
+import DecreaseConuter from './components/decreaseConuter';
+import IncreaseByTwoCounter from './components/ıncreaseByTwoCounter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <Counter></Counter>
+     <IncreaseCounter></IncreaseCounter>
+     <DecreaseConuter></DecreaseConuter>
+     <IncreaseByTwoCounter></IncreaseByTwoCounter>
+   </div>
   );
 }
 
